@@ -52,14 +52,15 @@ public class KhachHang extends javax.swing.JFrame {
         jLabel5.setText("jLabel5");
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setBackground(new java.awt.Color(204, 255, 255));
+        setBackground(new java.awt.Color(244, 244, 242));
 
-        jPanel1.setBackground(new java.awt.Color(204, 255, 255));
+        jPanel1.setBackground(new java.awt.Color(0, 102, 102));
 
         jLabel1.setBackground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("LOGO");
         jLabel1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
 
+        jButton1.setBackground(new java.awt.Color(249, 249, 249));
         jButton1.setText("Destination");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -67,10 +68,13 @@ public class KhachHang extends javax.swing.JFrame {
             }
         });
 
+        jButton2.setBackground(new java.awt.Color(249, 249, 249));
         jButton2.setText("Order");
 
+        jButton3.setBackground(new java.awt.Color(249, 249, 249));
         jButton3.setText("Feedback");
 
+        jButton4.setBackground(new java.awt.Color(249, 249, 249));
         jButton4.setText("Account");
 
         jLabel2.setText("Your information");
@@ -105,6 +109,8 @@ public class KhachHang extends javax.swing.JFrame {
                 .addGap(25, 25, 25))
         );
 
+        jPanel2.setBackground(new java.awt.Color(249, 249, 249));
+
         jLabel4.setText("jLabel4");
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
@@ -124,6 +130,7 @@ public class KhachHang extends javax.swing.JFrame {
                 .addContainerGap(29, Short.MAX_VALUE))
         );
 
+        jLabel3.setBackground(new java.awt.Color(249, 249, 249));
         jLabel3.setText("HELLO,....");
         jLabel3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
 
@@ -197,7 +204,7 @@ public class KhachHang extends javax.swing.JFrame {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel4Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(jLabel13, javax.swing.GroupLayout.DEFAULT_SIZE, 184, Short.MAX_VALUE)
+                    .addComponent(jLabel13, javax.swing.GroupLayout.DEFAULT_SIZE, 190, Short.MAX_VALUE)
                     .addComponent(jLabel12, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap())
         );
@@ -228,7 +235,6 @@ public class KhachHang extends javax.swing.JFrame {
                         .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(14, 14, 14))
                     .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jPanel4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
